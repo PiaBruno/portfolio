@@ -15,7 +15,15 @@ strong {
     font-family: "Erica One", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section  {
+    scroll-margin-top: 130px;
+}
   
 
 body{
