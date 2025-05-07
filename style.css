@@ -41,7 +41,7 @@ header {
 
 
 .navbar{
-    height: 10%;
+    height: 80px;
     background: #1B3D59;
     display: flex;
     justify-content: space-around;
@@ -57,26 +57,9 @@ header {
     width: 25%;
 }
 
-.logoss {
-    width: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.logoss img {
-    width: 30%;
-    height: 30%;
-}
-
-
-.logo{
-    color: #FAF8EC;
-    font-family: "Caveat", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 25px;
-  
+.logoss img{
+    width: 50px;
 }
 
 .enpag{
@@ -119,9 +102,9 @@ header {
 }
 
 .apps{
-    width: 10%;
+    width: 200px;
     display: inline-block;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -186,7 +169,7 @@ svg{
 }
 
 .giro{
-    width: 100%;
+    width: 40%;
     position: absolute;
     transform-origin: center;
 
@@ -265,10 +248,10 @@ svg{
 
 .fondoinfo {
     margin-top: 12%;
-    height: 50%;
+    height: 450px;
     background-color: #1B3D59;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: end;
 }
 
@@ -300,8 +283,10 @@ svg{
 
 .links {
     margin: auto;
-    width: 40%;
-    height: 30%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
 }
 
 .link2 {
@@ -312,6 +297,13 @@ svg{
 .link3 {
     margin-top: 5%;
     padding-left: 10%;
+    width: 300px;
+}
+
+.link4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .boton2 {
@@ -442,7 +434,7 @@ footer {
     height: auto;
     position: sticky;
     z-index: -1;
-    top: 10%; 
+    top: 80px; 
     left: 0; 
     right: 0; 
     bottom: 0;
@@ -608,13 +600,15 @@ footer {
 }
 
 @media (max-width:1400px) {
-    .logo {
-        font-size: 15px;
+
+    .logoss{
+        width: 30px;
     }
 
     .presentacion {
         width: 70%;
         margin: auto;
+        margin-top: 2%;
     }
 
     .intro {
@@ -626,12 +620,12 @@ footer {
     }
 
     .fondoinfo {
-        margin-top: 10%;
-        height: 60%;
+        margin-top: 6%;
+        height: 400px;
     }
 
     .personaje{
-        width: 80%;
+        width: 85%;
     }
 
     .links {
@@ -645,14 +639,50 @@ footer {
         font-size: 20px;
     }
 
-    .link4 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 
     .link3 {
-        width: 200px;
+        width: 300px;
     }
 
+    .vgen {
+        width: 400px;
+
+    }
+
+    .vgen .botoncentro img {
+        width: 350px;
+    }
+
+    .trabajo h2 {
+        font-size: 20px;
+    }
+
+    .programas {
+        width: 400px;
+    }
+
+    .prog {
+        width: 100px;
+        height: 120px;
+    }
+
+    .prog h3 {
+        font-size: 15px;
+    }
+
+    .datosicon {
+        height: 15%;
+    }
+
+}
+
+@media (max-width:1280px) {
+
+    .botones h2 {
+        font-size: 15px;
+    }
+
+    .navb {
+        font-size: 15px;
+    }
 }
